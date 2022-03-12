@@ -1,0 +1,37 @@
+.Card {
+  width: 30rem;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 0.6rem;
+  padding: 1.25rem 1rem;
+}
+.Card-title {
+  font-size: 1rem;
+}
+.Card-description {
+  font-weight: 500;
+  font-size: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 0.875rem;
+}
+
+.Card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.Card-footer .author {
+  font-weight: 400;
+  border-radius: 0.875rem;
+  background-color: rgb(210, 100, 228);
+  padding: 0.5rem 0.875rem;
+  min-width: 30%;
+  max-width: 15rem;
+}
+.Card-footer .source {
+  background-color: rgb(2, 148, 63);
+  padding: 0.5rem 0.875rem;
+  border-radius: 0.975rem;
+}

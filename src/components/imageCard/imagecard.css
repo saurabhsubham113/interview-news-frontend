@@ -1,0 +1,31 @@
+.ImageCard {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+  position: relative;
+  color: rgb(255, 255, 255);
+}
+
+.ImageCard-text-container {
+  position: absolute;
+  bottom: 1.5rem;
+  padding: 0.5rem;
+}
+
+.ImageCard-attribute {
+  padding-top: 0.875rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ImageCard-author {
+  background-color: rgb(86, 3, 148);
+  padding: 0.5rem 0.875rem;
+  font-weight: 500;
+  border-radius: 0.875rem;
+}
+
+.ImageCard-source {
+  background-color: rgb(2, 148, 63);
+  padding: 0.5rem 0.875rem;
+  font-weight: 500;
+  border-radius: 0.875rem;
+}

@@ -1,0 +1,19 @@
+.Home {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+.Home-hero {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Home-sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 0.975rem;
+  margin: 0 1rem;
+}
