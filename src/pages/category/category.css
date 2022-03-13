@@ -1,0 +1,8 @@
+.Category {
+  width: 85%;
+  padding: 3rem 0;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}

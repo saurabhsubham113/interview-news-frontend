@@ -1,15 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-import './App.css';
-import TextCard from "./components/card/TextCard";
 import Header from "./components/header/Header";
-import ImageCard from "./components/imageCard/ImageCard";
-import Home from "./pages/Home";
+import Home from "./pages/home/Home";
+import Category from "./pages/category/Category";
 
-function Hello() {
-  return (
-    <div>Hello</div>
-  )
-}
+import './App.css';
+
 
 function App() {
   return (
@@ -19,6 +14,7 @@ function App() {
       <ImageCard /> */}
       <Routes >
         <Route path="/" element={<Home />} />
+        <Route path="/:category" element={<Category />} />
       </Routes>
     </>
   );
