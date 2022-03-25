@@ -2,6 +2,11 @@
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
   position: relative;
   color: rgb(255, 255, 255);
+  height: 22rem;
+  width: 35rem;
+  min-width: 100%;
+  border-radius: 0.875rem;
+  background-color: rgb(204, 204, 204);
 }
 
 .ImageCard-text-container {
@@ -21,6 +26,8 @@
   padding: 0.5rem 0.875rem;
   font-weight: 500;
   border-radius: 0.875rem;
+  word-break: break-word;
+  margin-right: 0.575rem;
 }
 
 .ImageCard-source {
@@ -28,4 +35,26 @@
   padding: 0.5rem 0.875rem;
   font-weight: 500;
   border-radius: 0.875rem;
+  word-break: break-word;
+}
+
+@media screen and (max-width: 1280px) {
+  .ImageCard {
+    width: 32.5rem;
+  }
+}
+@media screen and (max-width: 1180px) {
+  .ImageCard {
+    width: 29rem;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .ImageCard {
+    width: 29rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .ImageCard {
+    width: 100%;
+  }
 }

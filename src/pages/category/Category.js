@@ -24,7 +24,7 @@ const Category = () => {
 
         }
     }
-    console.log(param.category)
+
     return (
         <div className='Category'>
             {categoryNews && categoryNews.map((catNews, index) => (

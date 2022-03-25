@@ -8,7 +8,7 @@ const TextCard = ({ title, description, author, source, url }) => {
 
     return (
         <>
-            <a href={url} rel="noreferrer" target="_blank">
+            <a href={url} rel="noreferrer" target="_blank" style={{ width: "100%" }}>
                 <div className="Card">
                     <h2 className="Card-title">{title} </h2>
                     <p className="Card-description">{description} </p>

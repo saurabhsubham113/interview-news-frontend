@@ -1,5 +1,5 @@
 import { AxiosHandler } from "./AxiosHandler";
-
+// calling al the api in one place
 export class ApiHandler {
     static getLatetstNews(country = 'in', page = 1) {
         return AxiosHandler.get(`/trending?country=${country}&page=${page}`)

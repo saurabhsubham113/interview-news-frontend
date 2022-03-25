@@ -4,17 +4,19 @@ import Home from "./pages/home/Home";
 import Category from "./pages/category/Category";
 
 import './App.css';
+import SearchResult from "./pages/searchResult/SearchResult";
 
 
 function App() {
   return (
     <>
-      <Header />
-      {/* <TextCard />
-      <ImageCard /> */}
+      <div style={{ width: "100%" }}>
+        <Header />
+      </div>
       <Routes >
         <Route path="/" element={<Home />} />
         <Route path="/:category" element={<Category />} />
+        <Route path="/search" element={<SearchResult />} />
       </Routes>
     </>
   );
